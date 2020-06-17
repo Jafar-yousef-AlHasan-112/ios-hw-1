@@ -7,12 +7,12 @@
 
 let name = "Ahmad"
 
-name = "Salem"
+let friendname = "Salem"
 
 
 var myWeight = 60
-var FriendWeight = 80.5
-var height = 1.5
+var FriendWeight = 80
+var height = 2
 
 
 var weightSum = myWeight + FriendWeight
@@ -38,29 +38,42 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
-var isKuwaiti = false
+var firstName1 = "jafar"
+var lastName1 = "alhasan"
+var email1 = "j99j55@gmail.com"
+var phoneNumber1 = "65092929"
+var age1 = 17
+var country1 = "kuwait"
+var area1 = "surra"
+var password = "87654321"
+var isKuwaiti = true
 
 //Person 2
 
-
-
-
-
-
+var firstName2 = "ibrahim"
+var lastName2 = "sanad"
+var email2 = "abokhalil100@gmail.com"
+var phoneNumber2 = "+973 56372826"
+var age2 = 59
+var country2 = "bahrain"
+var area2 = "manama"
+var password2 = "abokhalil39"
+var isKuwaiti2 = false
 
 
 
 
 //Person 3
 
+var firstName3 = "michael"
+var lastName3 = "scott"
+var email3 = "agentmichaelscarn05@thatswhatshesaid.com"
+var phoneNumber3 = "+1"
+var age3 = 58
+var country3 = "usa"
+var area3 = "scranton pennsylivania"
+var password3 = "1234"
+var isKuwaiti3 = false
 
 
 
@@ -82,3 +95,38 @@ var isKuwaiti = false
 
  
  */
+age1 == age2
+age1 != age2
+age1 == age3
+age1 != age3
+age2 == age3
+age2 != age3
+
+area1 == area2
+area1 != area2
+area1 == area3
+area1 != area3
+area2 == area3
+area2 != area3
+
+age1 > 18
+age1 >= 18
+age1 < 18
+age1 <= 18
+
+age2 > 18
+age2 >= 18
+age2 < 18
+age2 <= 18
+
+age3 > 18
+age3 >= 18
+age3 < 18
+age3 <= 18
+
+age1 == 17
+age1 != 17
+age2 == 17
+age2 != 17
+age3 == 17
+age3 != 17
